@@ -1,0 +1,6 @@
+n = int(input('введите количество компьютеров:'))
+monitor = int(input('введите стоимось монитора:'))
+pc = int(input('введите стоимось компьютерного блока:'))
+keyboard = int(input('введите стоимось клавиатуры:'))
+mouse = int(input('введите стоимось мыши:'))
+print( (monitor + pc + keyboard + mouse)* n, 'Cтоимость покупки')
